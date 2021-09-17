@@ -1,4 +1,4 @@
-import.random
+import random
 #Names:
 def q1():
     print("Please input your First Name: ")
@@ -134,6 +134,7 @@ def q13():
 
 ##Reverse:
 def q14():
+    notpallin = -1
     print("give a sentence: ")
     sent = str(input())
     a = list(sent)
@@ -144,7 +145,6 @@ def q14():
     print("".join(a))
 
 ##Reverse Extension:
-def q15():
     for i in range(int(len(a)/2)):
         if a[i] != a[-i-1]:
             notpallin = 1
@@ -193,5 +193,5 @@ def q16():
     
     #for scissors
     
-
+q14()
 
